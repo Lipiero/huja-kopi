@@ -1,0 +1,79 @@
+/**
+ * HUJA KOPI — Menu Seed Data
+ * Sumber data untuk semua item menu yang ditampilkan di katalog.
+ */
+
+const WHATSAPP_NUMBER = '6285151662420';
+
+const menuItems = [
+  {
+    id: 'choja',
+    code: 'CHOJA',
+    name: 'Es Chocolate',
+    category: 'cup',
+    priceDisplay: '12K',
+    priceValue: 12000,
+    recommended: false,
+    image: 'images/choja.png',
+  },
+  {
+    id: 'soja',
+    code: 'SOJA',
+    name: 'Kopi Soda Leci',
+    category: 'cup',
+    priceDisplay: '15K',
+    priceValue: 15000,
+    recommended: true,
+    image: 'images/soja.png',
+  },
+  {
+    id: 'kopja',
+    code: 'KOPJA',
+    name: 'Kopi Gula Aren',
+    category: 'cup',
+    priceDisplay: '15K',
+    priceValue: 15000,
+    recommended: false,
+    image: 'images/kopja.png',
+  },
+  {
+    id: 'meca',
+    code: 'MECA',
+    name: 'Es Americano',
+    category: 'cup',
+    priceDisplay: '12K',
+    priceValue: 12000,
+    recommended: false,
+    image: 'images/meca.png',
+  },
+  {
+    id: 'choter',
+    code: 'CHOTER',
+    name: 'Es Chocolate 1 Liter',
+    category: 'liter',
+    priceDisplay: '55K',
+    priceValue: 55000,
+    recommended: false,
+    image: 'images/choter.png',
+  },
+  {
+    id: 'solit',
+    code: 'SOLIT',
+    name: 'Kopi Soda Leci 1 Liter',
+    category: 'liter',
+    priceDisplay: '70K',
+    priceValue: 70000,
+    recommended: true,
+    image: 'images/solit.png',
+  },
+  {
+    id: 'koplit',
+    code: 'KOPLIT',
+    name: 'Kopi Gula Aren 1 Liter',
+    category: 'liter',
+    priceDisplay: '75K',
+    priceValue: 75000,
+    recommended: false,
+    image: 'images/koplit.png',
+  },
+];
